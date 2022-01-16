@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slider</title>
+    <link rel="stylesheet" href="./style.css" />
+</head>
+<div class="slider-container" id="js-slider">
+    <div class="slide">
+      <h1>Slide 1</h1>
+    </div>
+    <div class="slide">
+        <h1>Slide 2</h1>
+    </div>
+    <div class="slide">
+        <h1>Slide 3</h1>
+    </div>
+    <div class="slide">
+        <h1>Slide 4</h1>
+    </div>
+    <div class="slide">
+        <h1>Slide 5</h1>
+      <!-- <img
+        src="https://lh3.googleusercontent.com/pw/ACtC-3f7G2vV77t8yi03uKKgstftngql_GQ_ELtpnqQslSN0WL_PWriugNmMV47fFXqaNTPe6pGW8RcI8Q7tIua7f3a1vL4ynrGYsNvxX0zl8v1HSlsLkrEx6IORQIqTXAhJF_mTYi9_vh0_SmqxHIJVN4UcLQ=w719-h979-no?authuser=0"
+        alt=""
+      /> -->
+    </div>
+  </div>
+  <script src="./jquery-3.6.0.min.js"></script>
+  <script src="./app.js"></script>
+  <script>
+      $("#js-slider").carousel({
+        slideInterval: 5000
+      });
+  </script>
+</body>
+</html>
